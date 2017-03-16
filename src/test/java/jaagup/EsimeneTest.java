@@ -15,4 +15,10 @@ public class EsimeneTest{
 		assertEquals("Ahoi!", r.tervitusfunktsioon());
 	}	
 
+	@Test
+	public void keskmiseTest1(){
+		Rakendus r=new Rakendus();
+		assertEquals("5", r.keskmine("5"));
+		assertEquals("6", r.keskmine("6"));
+	}
 }
