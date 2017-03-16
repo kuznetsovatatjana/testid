@@ -12,7 +12,7 @@ public class EsimeneTest{
     @Test
    public void tervituseTest(){
 		Rakendus r=new Rakendus();
-		assertEquals("Ahoi", r.tervitusfunktsioon());
+		assertEquals("Ahoi!", r.tervitusfunktsioon());
 	}	
 
 }
